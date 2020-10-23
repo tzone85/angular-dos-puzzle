@@ -26,7 +26,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('angular-dos-game');
   });
 
-  it('should render title', () => {
+  it('should render tile', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
